@@ -1,0 +1,168 @@
+/*#region*/
+/* http://meyerweb.com/eric/tools/css/reset/ 2. v2.0 | 20110126
+License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+margin: 0;
+padding: 0;
+border: 0;
+font-size: 100%;
+font: inherit;
+vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+display: block;
+}
+body {
+line-height: 1;
+}
+ol, ul {
+list-style: none;
+}
+blockquote, q {
+quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+content: '';
+content: none;
+}
+table {
+border-collapse: collapse;
+border-spacing: 0;
+}
+/* I added this */
+*, *::before, *::after {
+box-sizing: border-box;
+}
+/*#endregion*/
+
+h1 {
+  font-size: 46px;
+  margin: 0.2em 0;
+}
+
+h2 {
+  font-size: 28px;
+  margin: 0.5em 0;
+}
+
+h3 {
+  font-size: 20px;
+  margin: 0.5em 0;
+}
+
+body {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+  max-width: 8.5in;
+  padding: 0.5in;
+  max-height: 11in;
+}
+
+/* 
+=======================================
+HEADER
+=======================================
+*/
+
+header {
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+  /* margin-bottom: 1em; */
+  width: 100%;
+}
+
+.name-section {
+  text-align: center;
+}
+
+.contact-section {
+  display: flex;
+}
+
+.contact-titles {
+  margin-right: 1em;
+}
+
+.contact {
+  margin: 0.75em 0;
+}
+
+
+/* 
+=======================================
+MAIN CONTENT
+=======================================
+*/
+
+.main-section {
+  margin: 0.5rem 0;
+  width: 100%;
+}
+
+  /* 
+  =======================================
+  About Me
+  =======================================
+  */
+
+  /* 
+  =======================================
+  DEVELOPMENT SKILLS
+  =======================================
+  */
+
+  /* .front-end-development-skills-section {
+
+  } */
+
+  .skills {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 1em;
+  }
+
+  .skills > * {
+    margin: 0.5em;
+  }
+
+  /* 
+  =======================================
+  PERSONAL PROJECTS
+  =======================================
+  */
+
+  .projects {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 1em;
+  }
+
+  .project {
+    max-width: 50%;
+    /* min-width: 344px; */
+  }
+
+  .project-description {
+    padding: 0.5em;
+    /* padding-left: 0; */
+  }
