@@ -232,7 +232,7 @@ MAIN CONTENT
   .certifications-list {
     display: flex;
     justify-content: space-between;
-    padding: 0.75em 1em;
+    padding: 0.75em 0;
   }
 
   .certifications-list > li {
